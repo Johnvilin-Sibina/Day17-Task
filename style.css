@@ -1,0 +1,27 @@
+img{
+    height: 150px;
+    width: 100%;
+}
+.card{
+    background: linear-gradient(to top right, #ff99cc 0%, #ffff66 100%);
+    margin: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+.card-header{
+  font-size: 18px;
+  background: linear-gradient(to bottom left, #ff99cc 0%, #ffff66 100%);
+}
+.card-title{
+    font-size:17px;
+}
+body{
+    background: linear-gradient(to top right, #ffccff 0%, #ffff99 100%);
+}
+.btn{
+    background: linear-gradient(to top right, #ff00ff 0%, #ffff00 100%);
+}
+.temperature-span{
+     font-weight: 600;
+}
