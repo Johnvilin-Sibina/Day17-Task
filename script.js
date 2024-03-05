@@ -23,6 +23,7 @@ function foo(data1){
           <a href="#" class="btn btn-primary" onclick="button_click(event, ${data1[i].latlng[0]}, ${data1[i].latlng[1]})">Click for Weather</a>
           <br>
           <span class="temperature-span"></span>
+          </div>
         </div>`  
         
     row.append(col);
@@ -33,7 +34,7 @@ function foo(data1){
 
 function button_click(event, lat, lon){
   event.preventDefault();
-  fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=5eb779a14d85a8b363191098dc26c5ef`)
+  fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=`)
       .then((data2)=>data2.json()).then((data3)=>{
         let temperature = data3.main.temp;
       let span = event.target.parentElement.querySelector('.temperature-span');
