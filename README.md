@@ -1,6 +1,9 @@
-This repository is for day 17 task Restcountries & Weather using fetch API.
-This repository contains three files.
-The file index.html contains the code and link to run the task in the browser.
-The file script.js contains the JavaScript code. In this file I have created all the html elements required dynamically.
-The file style.css is the stylesheet.
-I have used bootstrap cards to display the required data.
+<h1>Day 17 Task - Restcountries & Weather Using Fetch API</h1>
+<ul>
+  <li>All the HTML elements are created using DOM.</li>
+  <li>The test suite is added in the HTML file.</li>
+  <li>Bootstrap card is used to display the required data.</li>
+  <li>On cilcking the button "Click for Weather" the temperature of the particular will be showed.</li>
+  </ul>
+<h4>Deployment URL</h4>
+<a href="https://eloquent-fenglisu-d3d4fc.netlify.app/" target = "_blank">https://eloquent-fenglisu-d3d4fc.netlify.app/</a>
